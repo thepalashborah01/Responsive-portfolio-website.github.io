@@ -853,6 +853,7 @@ img{
     color: rgba(255, 255, 255, 0.8);
 	letter-spacing: 2px;
 	margin: 0;
+    font-family: 'Big Shoulders Stencil Display', cursive;
 }
 .visitors__times{
     text-align: center;
