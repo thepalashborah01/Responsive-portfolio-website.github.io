@@ -841,6 +841,23 @@ img{
 ::-webkit-scrollbar-thumb:hover{
     background-color: rgb(215, 191, 253)
 }
+/*==================== VISITORS ====================*/
+.visitors__title{
+    font-size: 20px;
+    margin: 0;
+    text-align: center;
+    color: #FFF;
+}
+.visitors__number{
+    text-align: center;
+    color: rgba(255, 255, 255, 0.8);
+	letter-spacing: 2px;
+	margin: 0;
+}
+.visitors__times{
+    text-align: center;
+    color: #FFF;
+}
 /*==================== MEDIA QUERIES ====================*/
 /* For small devices */
 @media screen and (max-width: 350px){

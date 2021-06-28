@@ -156,6 +156,19 @@ function scrollUp(){
 }
 window.addEventListener('scroll', scrollUp)
 
+/*==================== VISITORS ====================*/ 
+const countEl = document.getElementById('count');
+
+updateVisitCount();
+
+function updateVisitCount() {
+	fetch('https://api.countapi.xyz/update/thepalashborah/portfolio/?amount=1')
+	.then(res => res.json())
+	.then(res => {
+		countEl.innerHTML = res.value;
+	})
+}
+
 /*==================== DARK LIGHT THEME ====================*/ 
 const themeButton = document.getElementById('theme-button')
 const darkTheme = 'dark-theme'
